@@ -1,0 +1,25 @@
+{
+  "rpc": "https://solana-api.projectserum.com",
+  "updateAuthority": "4QzYp1UA2qPDwCS7FvwPo7Znc8miZR9FSvk7G6sCQN46",
+  "primaryRoyaltiesAccount": "4QzYp1UA2qPDwCS7FvwPo7Znc8miZR9FSvk7G6sCQN46",
+  "candyMachineId": "8Fdn8A6VBGrxqNBzAff8JUtbMELZ9bdgiDcuoq7Y6wfg",
+  "marketPlaceInfos": [{
+    "name": "DigitalEyes",
+    "addresses": ["3iYf9hHQPciwgJ1TCjpRUp1A3QW4AfaK7J6vCmETRMuu"]
+  },
+  {
+    "name": "MagicEden",
+    "addresses": ["2NZukH2TXpcuZP4htiuT8CFxcaQSWzkkR6kepSWnZ24Q"]
+  }],
+  "twitter": {
+    "consumerApiKey": "5vAW***********",
+    "consumerApiSecret": "YecOVT***********",
+    "oauth": {
+      "token": "UjI***********",
+      "secret": "iNA***********"
+    }
+  },
+  "discord": {
+    "webhookUrl": "https://discord.com/api/webhooks/***********"
+  }
+}

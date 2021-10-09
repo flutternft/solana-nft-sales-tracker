@@ -1,0 +1,32 @@
+{
+  "name": "solana-nft-sales-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A rudimentary NodeJS script that scrapes Solana transactions to idenitfy NFT purchases on marketplaces. Comes with plugins that allow posting to Discord/Twitter.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -t es6 src/**/**.ts",
+    "console_run": "node run-script-standalone.js --config='./config/sample.json' --outputType=console",
+    "console_cron": "node cron.js --config='./config/sample.json' --debugMode=true --outputType=console",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.29.2",
+    "@types/bs58": "^4.0.1",
+    "axios": "^0.22.0",
+    "borsh": "^0.6.0",
+    "bs58": "^4.0.1",
+    "buffer-layout": "^1.2.2",
+    "lodash": "^4.17.21",
+    "node-cron": "^3.0.0",
+    "twitter": "^1.7.1",
+    "typescript": "^4.4.3",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.3"
+  }
+}
