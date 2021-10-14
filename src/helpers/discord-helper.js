@@ -51,10 +51,10 @@ export default class DiscordHelper {
                         }
                     ],
                     "color": 14303591,
-                    "title": `${saleInfo.flutterInfo.id} → SOLD`,
+                    "title": `${saleInfo.nftInfo.id} → SOLD`,
                     "url": `https://explorer.solana.com/tx/${saleInfo.txSignature}`,
                     "thumbnail": {
-                        "url": `${saleInfo.flutterInfo.image}`
+                        "url": `${saleInfo.nftInfo.image}`
                     },
                     "timestamp": new Date(saleInfo.time * 1000).toISOString()
                 }
